@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px) {
+   .col-sm-4 {
+     text-align: center;
+     margin: 25px 0;
+  }
+}
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+/* body */
+body {
+  background: black;
+}
+
+/* header */
+.banner {
+	background-image: url("./image/jumbotron.jpg");
+  background-size: cover;
+  min-height: -webkit-fill-available;
+}
+
+/* carousel */
+.carsouel-item img {
+	height: 50px;
+}
+
+/* avatar */
+.avatar {
+  border: 5px ridge white;
+  border-radius: 50%;
+  background: url("./image/avatar1.jpg");
+  box-shadow: 1px 3px 2px 3px #00ffc433; 
+}
+
+/* cards */
+.card_margin {
+  margin-right: 0px;
+}
+
+/* thumbnails */
+.thumbnails {
+  width: 300px;
+  height: 200px;
+}
+.card-text {
+  overflow: hidden;
+}
+
+.card-link:visited {
+  overflow: scroll;
+}

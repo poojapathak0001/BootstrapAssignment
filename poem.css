@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px) {
+   .col-sm-4 {
+     text-align: center;
+     margin: 25px 0;
+  }
+}
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+/* body */
+body {
+  background: black;
+}
+
+/* thumbnails */
+.thumbnails {
+  width: 300px;
+  height: 200px;
+}
+.card-text {
+  height: 300px;
+  overflow: scroll;
+}
+
+/* form */
+form {
+	height: 600px;
+}
