@@ -61,10 +61,4 @@ body {
   width: 300px;
   height: 200px;
 }
-.card-text {
-  overflow: hidden;
-}
 
-.card-link:visited {
-  overflow: scroll;
-}
